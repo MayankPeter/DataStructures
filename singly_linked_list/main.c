@@ -5,13 +5,16 @@ SLL *hptr = 0;
 char ch;
 do
 {
-//add_begin(&hptr);
+add_begin(&hptr);
 //add_end(&hptr);
-add_mid(&hptr);
+//add_mid(&hptr);
 
 printf("Do you want to add another node? Y/N\n");
 scanf(" %c",&ch);
 }while(ch=='Y' || ch=='y');
 
-print(hptr);
+//print(hptr);
+//printf("\n");
+rev_print_iter(hptr);
+//rev_print_rec(hptr);
 }

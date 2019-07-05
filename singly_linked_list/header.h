@@ -18,5 +18,7 @@ void add_end(SLL **);
 void print(SLL *);
 void add_mid(SLL **ptr);
 int count(SLL *);
+void rev_print_rec(SLL *);
+void rev_print_iter(SLL *);
 
 #endif
