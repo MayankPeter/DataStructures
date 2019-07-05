@@ -1,0 +1,20 @@
+PATH_O=./obj_files
+PATH_E=./exe_files
+OBJ_FILES = main.o print.o add_mid.o count.o
+
+all: exe
+exe: $(OBJ_FILES)
+	cc $(PATH_O)/main.o $(PATH_O)/print.o $(PATH_O)/add_mid.o $(PATH_O)/count.o -o $(PATH_E)/exe
+main.o: main.c
+	cc -c main.c -o $(PATH_O)/main.o
+print.o: print.c
+	cc -c print.c -o $(PATH_O)/print.o
+add_mid.o: add_mid.c
+	cc -c add_mid.c -o $(PATH_O)/add_mid.o
+count.o: count.c
+	cc -c count.c -o $(PATH_O)/count.o
+clean:
+	rm $(PATH_O)/*.o $(PATH_E)/*exe
+
+#dependency chain
+
