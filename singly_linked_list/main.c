@@ -13,8 +13,10 @@ printf("Do you want to add another node? Y/N\n");
 scanf(" %c",&ch);
 }while(ch=='Y' || ch=='y');
 
-//print(hptr);
+rev_data(hptr);
+print(hptr);
 //printf("\n");
-rev_print_iter(hptr);
+//rev_print_iter(hptr);
 //rev_print_rec(hptr);
+//rev_print_array_ptr(hptr);
 }
