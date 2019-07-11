@@ -24,5 +24,5 @@ void rev_print_array_ptr(SLL *);
 void rev_data(SLL *);
 void rev_link(SLL **);
 void rev_link_3_ptrs(SLL **);
-
+void delete_all_nodes(SLL **);
 #endif

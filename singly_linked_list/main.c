@@ -15,7 +15,9 @@ scanf(" %c",&ch);
 
 //rev_data(hptr);
 //rev_link(&hptr);
-rev_link_3_ptrs(&hptr);
+//rev_link_3_ptrs(&hptr);
+print(hptr);
+delete_all_nodes(&hptr);
 print(hptr);
 //printf("\n");
 //rev_print_iter(hptr);
