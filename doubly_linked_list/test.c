@@ -9,7 +9,7 @@ char s[6][30]={"git status\0","git add -A\0","git commit -m \"update\"\0","git p
 for(i=0;i<6;i++)
 {
 system(s[i]);
-//printf("%s\n",s[i]);
+printf("%s\n",s[i]);
 if(i==5 || i==6)
 sleep(2);
 else
