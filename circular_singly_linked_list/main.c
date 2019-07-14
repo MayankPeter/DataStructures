@@ -5,7 +5,8 @@ CLL *head = 0;
 char ans;
 do
 {
-add_begin_cll(&head);
+//add_begin_cll(&head);
+add_end_cll(&head);
 
 printf("Do you want to add another passenger details?\n");
 scanf(" %c",&ans);

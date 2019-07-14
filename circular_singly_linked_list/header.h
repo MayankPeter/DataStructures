@@ -14,6 +14,7 @@ struct railway *next;
 }CLL;
 
 void add_begin_cll(CLL **);
+void add_end_cll(CLL **);
 void display(CLL *);
 
 #endif
