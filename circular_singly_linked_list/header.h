@@ -16,5 +16,6 @@ struct railway *next;
 void add_begin_cll(CLL **);
 void add_end_cll(CLL **);
 void display(CLL *);
+int count_csll_nodes(CLL *);
 
 #endif

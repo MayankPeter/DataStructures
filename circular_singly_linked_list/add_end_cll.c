@@ -5,7 +5,7 @@ CLL *node = malloc(sizeof(CLL));
 printf("Enter passanger name, age & bill amount\n");
 scanf(" %s%d%f",node->pname, &node->age, &node->bill);
 
-if(*hptr==0)
+if(*hptr==NULL)
 {
 node->next = node;
 *hptr = node;
